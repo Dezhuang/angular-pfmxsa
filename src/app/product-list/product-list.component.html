@@ -9,14 +9,13 @@
     </a>
   </h3>
 
-  <p *ngIf="product.description">
-    Description: {{ product.description }}
-  </p>
-   <button (click)="share()">
+  <p>Estimate:{{ product.price | currency }}<br>
+  Description: {{ product.description }}</p>
+   <!--button (click)="share()">
     Save
   </button>
 
-  <app-product-alerts
+  <!--app-product-alerts
     [product]="product" 
     (notify)="onNotify()">
   </app-product-alerts>

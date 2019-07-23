@@ -1,17 +1,17 @@
 export const products = [
   {
-    name: 'Beijing Tiananmen Square',
-    price: 799,
+    name: 'Beijing Tiananmen Square improvement',
+    price: "1000000000",
     description: 'Modernize the world largest square'
   },
   {
     name: 'Qingdao Huangdao Subway II',
-    price: 699,
+    price: "2000000",
     description: 'Extend the subway to every street'
   },
   {
     name: 'Shanghai Municipal Building',
-    price: 299,
+    price: "300000",
     description: 'Redesign and buid the goverment building'
   }
 ];
