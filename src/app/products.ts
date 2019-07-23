@@ -6,7 +6,7 @@ export const products = [
   },
   {
     name: '天津地铁二期 Tianjin Subway II',
-    price: "2000000",
+    price: "200000000",
     description: 'Extend the subway to every street'
   },
   {
